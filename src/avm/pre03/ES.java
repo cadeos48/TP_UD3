@@ -122,19 +122,5 @@ public class ES {
     
       public static void EscribirLn(String a_escribir){
         System.out.print(a_escribir);
-    }
-    
-    
-    public static void main(String[] args) {
-        System.out.println(ES.leerCaracter());
-        ES.Escribir("pues vale");
-        /*  ES.Escribir(ES.leerEntero());
-        Esto no sería posible ya que estaría invocando al método estático Escribir
-        de la clase ES y le estaría dando como parámetro un método que devuelve un 
-        número entero "(ES.leerEntero)" por lo que intentaría almacenar en la variable
-        a_escribir del método Escribir un número entero, produciéndose una incompatibilidad
-        de tipos ya que a_escribir es de tipo String.
-        */
-       
-    }
+      }
 }
